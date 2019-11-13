@@ -118,7 +118,7 @@ if sheet == "Product Inventory Prediction":
         
 
 if sheet == "Twitter Sentiment Analysis":
-    train = pd.read_csv("/home/pradeep/Downloads/CSV_data/train_E6oV3lV.csv")
+    train = pd.read_csv("train_E6oV3lV.csv")
 
     #tweet_token = merged.tweets.apply(lambda l : l.split())
 
